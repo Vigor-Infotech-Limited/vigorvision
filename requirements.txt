@@ -1,0 +1,38 @@
+# Core deep learning dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data processing and scientific computation
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Image and augmentation libraries
+opencv-python>=4.8.0
+albumentations>=1.3.0
+Pillow>=10.0.0
+
+# Visualization and logging
+matplotlib>=3.8.0
+tensorboard>=2.13.0
+wandb>=0.16.0
+tqdm>=4.65.0
+
+# Configuration and utilities
+PyYAML>=6.0
+psutil>=5.9.5
+
+# Optional but recommended (for stability, formatting, and debugging)
+rich>=13.5.0
+colorama>=0.4.6
+
+# Optional if you use any web or distributed training utilities
+requests>=2.31.0
+
+# Version management
+packaging>=23.2
+
+# Safety (for PEP517 and setuptools build)
+setuptools>=68.0.0
+wheel>=0.41.0
